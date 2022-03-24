@@ -1,3 +1,10 @@
 body{
-    background-color: bisque;
+    background-color: #808080;
+}
+
+img{
+    width: 40% ;
+}
+figure{
+    text-align: center;
 }
