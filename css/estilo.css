@@ -3,8 +3,17 @@ html{
 
 }
 
+.menu{
+    background-color: rgba(105,89,205, 0.4);
+    padding: 2%;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
 body{
-    background-color: #775e5e;
+    background-color: red;
 }
 
 .img_topo{
@@ -28,7 +37,6 @@ h1{
 }
 
 p{
-
     font-size: 1.5em;
     text-align: justify;
     text-indent: 10px;
@@ -54,3 +62,16 @@ p{
     font-size: 1em;
     text-align: center;
 }
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: antiquewhite;
+}
+
+ul li{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
