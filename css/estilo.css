@@ -1,10 +1,9 @@
 html{
     scroll-behavior: smooth;
-
 }
 
 .menu{
-    background-color: rgba(105,89,205, 0.4);
+    background-color: rgb(216, 14, 14);
     padding: 2%;
 }
 
@@ -14,7 +13,7 @@ html{
 }
 
 .itens_menu a:link, .itens_menu a:visited{
-    color: #ffdead;
+    color: #000000;
     font-weight: bolder;
     font-size: 1.3em;
     text-decoration: none;
@@ -22,7 +21,7 @@ html{
 
 .itens_menu a:hover{
     padding: 0.8%;
-    background-color: rgba(9, 7, 6, 0.3);
+    background-color: rgb(255, 0, 0);
 }
 
 .itens_menu a:active{
@@ -30,12 +29,12 @@ html{
 }
 
 #veja_mais a>link, #veja_mais a:visited{
-    color: #2f4f4f;
+    color: #020061;
     font-size: 1.2em;
 }
 
 #veja_mais a:hover{
-    color: #ffdead;
+    color: #000000;
 }
 
 body{
@@ -47,7 +46,7 @@ figure{
 }
 
 h1{
-    color: #884513;
+    color: #000000;
     font-size: 2em;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -55,7 +54,7 @@ h1{
 }
 
 .img_topo{
-    width: 40% ;
+    width: 40%;
 }
 
 .img_corpo{
@@ -87,7 +86,7 @@ p{
 
 
 .botao{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 130px;
     height: 50px;
     padding: 1%;
@@ -97,19 +96,20 @@ p{
 }
 
 .botao a:link, .botao a:visited{
-    color: #2f4f4f;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bolder;
+    text-align: center;
 }
 
 .boato a:hover{
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
 }
 
 .botao:hover{
-    background-color: #FFDEAD;
-    color: black;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
 }
 
 footer{
@@ -121,9 +121,10 @@ footer{
 }
 
 footer p{
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1em;
+    text-align: center;
 }
 
 .pletras > p{
@@ -136,4 +137,9 @@ ul li{
     font-weight: bolder;
 }
 
-
+.colega{
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
