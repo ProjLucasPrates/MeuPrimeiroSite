@@ -63,6 +63,7 @@ h1{
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: bold;
+    font-family: 'Uchen', serif;
 }
 
 .img_topo{
@@ -96,6 +97,8 @@ p{
     text-align: justify;
     text-indent: 35px;
     line-height: 1.5;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Uchen', serif;
 }
 
 .parag_letras > p{
