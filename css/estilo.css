@@ -8,16 +8,39 @@ html{
     padding: 1%;
 }
 
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+
+ .center{
+     text-align: center;
+ }
+
 #li{
     display: inline;
 }
 
-#li a{
-    display: inline-block;
+a:link {
+    color: #6495ed;
     text-decoration: none;
-    outline: none;
-    display: inline;
-}
+  }
+
+  a:visited {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    background-color: #deb887;
+  }
+
+  a:active {
+    color: #000000;
+    background-color: #deb887;
+ 
+  }
 
 .itens_menu{
     text-align: center;
@@ -26,7 +49,6 @@ html{
 
 .itens_menu a:link, .itens_menu a:visited{
     color: #000000;
-    font-weight: bolder;
     font-size: 1.3em;
     text-decoration: none;
 }
@@ -35,13 +57,11 @@ html{
     background-color: #cd8530;
 }
 
-.itens_menu a:active{
-    color: rgb(0, 0, 0);
-}
+
 
 #veja_mais a>link, #veja_mais a:visited{
     color: #020061;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 #veja_mais a:hover{
@@ -107,7 +127,7 @@ p{
 
 
 .botao{
-    background-color: rgb(0, 0, 0);
+    background-color: #deb887;
     width: 130px;
     height: 20px;
     padding: 1%;
@@ -117,23 +137,23 @@ p{
 }
 
 .botao a:link, .botao a:visited{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bolder;
 }
 
 .botao a:hover{
-    color: rgb(0, 0, 0);
+    color: #cd853f;
     font-weight: bold;
 }
 
 .botao:hover{
-    background-color: #ffdead;
+    background-color: #deb887;;
     color: rgb(0, 0, 0);
 }
 
 footer{
-    background-color: rgba(9, 7, 6, 0.3);
+    background-color: #cd853f;
     margin-top: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -143,6 +163,7 @@ footer p{
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1em;
+    text-align: center;
 }
 
 .pletras > p{
@@ -155,26 +176,27 @@ ul li{
     font-weight: bolder;
 }
 
-.colega{
-    text-align: center;
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-bottom: 1%;
-}
-
-.center{
+.botao center{
     text-align: center;
 }
-
-td, th{
-    border: 5px ridge #8b4513;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
+ 
 table{
     border-collapse: collapse;
     width: 100%;
+}
+
+th{
+    font-size: 1.5em;
+    color: #8B4513; 
+    font-weight: bold;
+
+}
+td, th {
+    border: 3px dashed #8B4513; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+    text-align: center;
+
 }
 
 audio{
@@ -199,4 +221,62 @@ td:first-child + td {
 
 form{
     box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-color: #cd853f;
+}
+
+input[type=text], select, input[type=tel], input[type=email], input[type=date], textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 90%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+  }
+ 
+  
+  label{
+    width: 50%;
+    display: inline-block;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+}
+      
+  
+ .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+ 
+  input[type=submit] {
+    background-color:    #cd853f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
 }
